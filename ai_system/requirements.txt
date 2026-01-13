@@ -1,0 +1,64 @@
+# Core AI and LLM libraries
+ollama
+langchain
+langchain-community
+langchain-ollama
+chromadb
+sentence-transformers
+
+# MCP related
+mcp
+fastmcp
+
+# Vector database and embeddings
+faiss-cpu
+numpy
+scikit-learn
+
+# Web and API tools
+aiohttp
+fastapi
+uvicorn
+httpx
+websockets
+
+# Audio and Speech Processing
+speechrecognition
+pyttsx3
+pyaudio
+
+# Data processing
+pandas
+python-dotenv
+
+# Memory and persistence
+db-sqlite3
+json5
+
+# Async support
+aiosqlite
+
+# Utilities
+pydantic
+typing-extensions
+rich
+
+# UI Framework
+streamlit
+streamlit-chat
+
+# AR System Dependencies
+opencv-python
+pika
+aio-pika
+Pillow
+requests
+
+# AR System Dependencies
+opencv-python
+pika
+aio-pika
+pyaudio
+wave
+Pillow
+requests

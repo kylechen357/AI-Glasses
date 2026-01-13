@@ -1,0 +1,43 @@
+{
+  "ar_system": {
+    "enabled": true,
+    "agent1_asr": {
+      "model": "base.en",
+      "language": "en",
+      "buffer_duration": 3.0
+    },
+    "agent2_ai": {
+      "use_tools": true,
+      "use_memory": true,
+      "temperature": 0.7
+    },
+    "rtsp": {
+      "audio_sample_rate": 16000,
+      "audio_channels": 1,
+      "buffer_size": 1024,
+      "url_template": "",
+      "transport": "tcp",
+      "timeout": 30000,
+      "reconnect": true
+    },
+    "rabbitmq": {
+      "host": "localhost",
+      "port": 5672,
+      "username": "guest",
+      "password": "guest",
+      "task_queue": "ar_tasks",
+      "response_queue": "ar_responses"
+    },
+    "task_executor": {
+      "screenshot_enabled": true,
+      "temp_file_cleanup_delay": 300
+    }
+  },
+  "network": {
+    "connection_method": "port_forward",
+    "server_ip": "",
+    "rtsp_port": 8554,
+    "api_port": 8000,
+    "created_at": "2025-08-05T02:19:33Z"
+  }
+}
