@@ -1,0 +1,18 @@
+{
+  "globalShortcut": "Ctrl+Space",
+  "mcpServers": {
+    "ddg-search": {
+      "command": "uvx",
+      "args": ["duckduckgo-mcp-server"]
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "/home/agent01/Workspace"]
+    },
+    "stock-checker": {
+      "command": "python3",
+      "args": ["/home/agent01/mcp-servers/stock-checker/stock_server.py"],
+      "env": {}
+    }
+  }
+}
