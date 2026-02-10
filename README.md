@@ -1,6 +1,7 @@
 # AI-Glasses: An AI-Powered Augmented Reality System
 
 [**[Project Page]**](https://kylechen.top/Project/AI_Glasses.html) &ensp; [**[Paper]**](https://arxiv.org/abs/2601.06235) &ensp; [**[PPT]**](https://kylechen.top/Reference/NCHC/Glasses_PPT.pdf)
+-------
 
 This project is an AI-powered augmented reality (AR) system designed to provide a seamless and intelligent user experience through AR glasses. The system can process voice commands, understand user intent, and perform various tasks, such as providing information, controlling devices, and interacting with the digital world.
 
